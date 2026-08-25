@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*
+
+Typical device breakpoint:
+Telas pequenas: até 600px
+Celular: 600px até 768
+Tablet: de 769px até 992px
+Desktop: de 993 até 1200
+Telas Grandes: de 1201 em diante
+
+*/
+
+@media screen and (min-width: 769px) {
+    #skill-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
